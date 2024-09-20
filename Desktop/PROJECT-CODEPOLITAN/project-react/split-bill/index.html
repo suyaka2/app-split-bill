@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+
+
+
+.typing-demo {
+  width: 28ch;
+  animation: typing 4s steps(28) infinite alternate, 
+  blink .75s step-end infinite ;
+  white-space: nowrap;
+  overflow: hidden;
+  /* border-right: px solid; */
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  0%{
+    width: 0;
+  }
+
+  50%{
+    width: 28ch;
+}
+
+    100%{
+    width: 0;
+
+    }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+</style>
+<body>
+    
+        <div class="typing-demo">
+          Aplikasi Split Bill
+        </div>
+      
+</body>
+</html>
+
